@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../image/image2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.container{
+    margin-top: 15%;
+    margin-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid black;
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(to bottom, #a8dadc 0%, #dadada 10%, #a8dadada 50%, #a8dadada 100%);
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+.container .buttun{
+    text-align: left;
+    margin-left: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .buttun .text{
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    border: 1px solid white !important;
+    border: none !important;
+    background-image: linear-gradient(to bottom, #a8dadc 0%, #dadada 10%, #a8dadada 50%, #a8dadada 100%);
+}
+.container .main .botom{
+    margin-left: 150px;
+    border: none !important;
+    background-image:linear-gradient(to bottom, #a8dadc 0%, #dadada 10%, #a8dadada 50%, #a8dadada 100%);
+}
+.login_button .l_buton{
+    width: 200px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #a8dadc 0%, #e453ee 5%, #7a0663da 30%, #350423da 50%);
+    text-transform: uppercase;
+    color: aqua;
+
+}
+.container h4{
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: red;
+    font-size: 10px;
+}
+.container ul{
+    margin-top: 10px;
+}
+.container ul li{
+    color: rgb(10, 39, 128);
+    font-size: 26px;
+}
